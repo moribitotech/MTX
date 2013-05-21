@@ -2,7 +2,9 @@ MTX (MoribitoTechX)
 ===
 
 - Compact-MTX framework over LibGDX Scene2D 
-- http://moribitotechx.blogspot.co.uk/
+- Tutorial Blog: http://moribitotechx.blogspot.co.uk/
+- Twitter: https://twitter.com/MoribitoTech
+- Exclusive Facebook Group: https://www.facebook.com/groups/MoribitoTechAndroid/
 
 Info:
 ---------
