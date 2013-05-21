@@ -22,6 +22,8 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
@@ -103,6 +105,7 @@ public abstract class AbstractScreen implements Screen {
 				+ getScreenName());
 		//
 		setOpenGLClearColor(1, 0, 0, 1);
+		setBackBackButton();
 	}
 
 	@Override
@@ -130,14 +133,6 @@ public abstract class AbstractScreen implements Screen {
 		// Render drawings (draw()/render() methods in previous games)
 		// ############################################################
 		stage.draw();
-
-		// Custom back button
-		// ############################################################
-		if (isBackButtonActive) {
-			if (Gdx.input.isKeyPressed(Keys.BACK)) {
-				keyBackPressed();
-			}
-		}
 	}
 
 	/**
@@ -167,7 +162,7 @@ public abstract class AbstractScreen implements Screen {
 	 * 
 	 * */
 	public void setBackButtonActive(boolean isBackButtonActive) {
-		Gdx.input.setCatchBackKey(true);
+		Gdx.input.setCatchBackKey(isBackButtonActive);
 		this.isBackButtonActive = isBackButtonActive;
 		//
 		MtxLogger.log(logActive, true, logTag, "SCREEN BACK BUTTON SET: "
@@ -175,12 +170,28 @@ public abstract class AbstractScreen implements Screen {
 	}
 
 	/**
-	 * Override this method to do some function when back button pressed
+	 * Back button
+	 * */
+	private void setBackBackButton() {
+		stage.addListener(new InputListener() {
+			@Override
+			public boolean keyUp(InputEvent event, int keycode) {
+				if (keycode == Keys.BACK || keycode == Keys.ESCAPE) {
+					if (isBackButtonActive) {
+						keyBackPressed();
+					}
+				}
+				return false;
+			}
+		});
+	}
+
+	/**
+	 * Override this method to do some function when back button pressed, only
+	 * works if setBackButtonActive(true)
 	 * */
 	public void keyBackPressed() {
-		// FIXME
-		// this button is very proplematic, its called more than once when it is
-		// pressed, look for something else
+
 	}
 
 	/**
