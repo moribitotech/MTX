@@ -1,8 +1,8 @@
-MTX
+MTX (MoribitoTechX)
 ===
 
-Compact-MTX framework over LibGDX Scene2D
-
+- Compact-MTX framework over LibGDX Scene2D 
+- http://moribitotechx.blogspot.co.uk/
 
 Info:
 ---------
