@@ -239,11 +239,18 @@ public class AppSettings {
 	 * by 2.0f to get best fitting for different resolution devices
 	 * */
 	public static float getWorldSizeRatio() {
-		float ratioSize = 1.0f;
-
-		// TODO
+		
+		//Return the more restrictive ratio
+		if(getWorldPositionXRatio() < getWorldPositionYRatio())
+			return getWorldPositionXRatio();
+		else
+			return getWorldPositionYRatio();
+		
+		//float ratioSize = 1.0f;
+		
+		//Deliberations
 		// Always use width maybe ??
-		ratioSize = WORLD_WIDTH / WORLD_TARGET_WIDTH;
+		//ratioSize = WORLD_WIDTH / WORLD_TARGET_WIDTH;
 
 		// FIXME
 		// Unknown ??
@@ -256,7 +263,7 @@ public class AppSettings {
 		// ratioSize = WORLD_HEIGHT / WORLD_TARGET_HEIGHT;
 		// }
 
-		return ratioSize;
+		//return ratioSize;
 	}
 
 	/**
