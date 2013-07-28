@@ -117,7 +117,7 @@ public abstract class AbstractGroup extends Group {
 		super.draw(batch, parentAlpha);
 		// For fade out/in effect
 		batch.setColor(this.getColor().r, this.getColor().g, this.getColor().b,
-				parentAlpha);
+				parentAlpha * this.getColor().a);
 
 		// DRAW TEXTURE REGION (Draw only if set active and not null)
 		// ##################################################################
