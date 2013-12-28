@@ -1,0 +1,67 @@
+imageatlas.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img_btn_play
+  rotate: false
+  xy: 1, 800
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+anim_green_santa
+  rotate: false
+  xy: 233, 671
+  size: 325, 60
+  orig: 325, 60
+  offset: 0, 0
+  index: -1
+img_btn_pause
+  rotate: false
+  xy: 122, 800
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+img_obj_cloud
+  rotate: false
+  xy: 1, 671
+  size: 231, 128
+  orig: 231, 128
+  offset: 0, 0
+  index: -1
+img_bg_1_
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+img_obj_snowflake
+  rotate: false
+  xy: 962, 1
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+img_obj_soil_1_
+  rotate: false
+  xy: 1, 921
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+anim_black_ghost
+  rotate: false
+  xy: 233, 732
+  size: 325, 60
+  orig: 325, 60
+  offset: 0, 0
+  index: -1
+anim_bats
+  rotate: false
+  xy: 1, 542
+  size: 387, 128
+  orig: 387, 128
+  offset: 0, 0
+  index: -1
