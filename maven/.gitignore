@@ -1,0 +1,16 @@
+.idea
+*.iml
+*.ipr
+*.iws
+
+.classpath
+.project
+
+tmp
+out
+target
+
+android/libs
+ios
+
+**/*.log

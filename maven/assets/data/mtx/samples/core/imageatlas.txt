@@ -1,0 +1,186 @@
+imageatlas.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+batsanta
+  rotate: false
+  xy: 1871, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 5
+batsanta
+  rotate: false
+  xy: 1, 615
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+imgstar
+  rotate: false
+  xy: 1, 716
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+animbatcircleright
+  rotate: false
+  xy: 1, 417
+  size: 384, 64
+  orig: 384, 64
+  offset: 0, 0
+  index: -1
+btnblackbat
+  rotate: false
+  xy: 1972, 77
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+animhulkbruceaction
+  rotate: false
+  xy: 1102, 130
+  size: 750, 150
+  orig: 750, 150
+  offset: 0, 0
+  index: -1
+btnlevelpressed
+  rotate: false
+  xy: 1, 792
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+imgbat
+  rotate: false
+  xy: 102, 483
+  size: 63, 64
+  orig: 63, 64
+  offset: 0, 0
+  index: -1
+btnallmenupressed
+  rotate: false
+  xy: 1488, 349
+  size: 250, 67
+  orig: 250, 67
+  offset: 0, 0
+  index: -1
+batsanta
+  rotate: false
+  xy: 1871, 102
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 4
+batsanta
+  rotate: false
+  xy: 1, 483
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+animhulkbruce
+  rotate: false
+  xy: 1, 1
+  size: 1100, 400
+  orig: 1100, 400
+  offset: 0, 0
+  index: -1
+btnlevel
+  rotate: false
+  xy: 1, 868
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+batsanta
+  rotate: false
+  xy: 1739, 281
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+btnbatcirclepressed
+  rotate: false
+  xy: 1, 944
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+btnblackbatpressed
+  rotate: false
+  xy: 1972, 1
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+animbatblackflyright
+  rotate: false
+  xy: 1102, 281
+  size: 385, 64
+  orig: 385, 64
+  offset: 0, 0
+  index: -1
+batsanta
+  rotate: false
+  xy: 1739, 382
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+loadinganim
+  rotate: false
+  xy: 1102, 1
+  size: 768, 128
+  orig: 768, 128
+  offset: 0, 0
+  index: -1
+animbatflyright
+  rotate: false
+  xy: 1102, 346
+  size: 385, 64
+  orig: 385, 64
+  offset: 0, 0
+  index: -1
+btnbatcircle
+  rotate: false
+  xy: 77, 716
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+btnallmenu
+  rotate: false
+  xy: 1488, 281
+  size: 250, 67
+  orig: 250, 67
+  offset: 0, 0
+  index: -1
+imgstarholder
+  rotate: false
+  xy: 1972, 153
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+transparentblack
+  rotate: false
+  xy: 1853, 229
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+imgtopapps
+  rotate: false
+  xy: 1840, 422
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+btnbatlocked
+  rotate: false
+  xy: 102, 615
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
