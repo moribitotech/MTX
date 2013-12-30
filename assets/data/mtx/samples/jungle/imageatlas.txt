@@ -1,0 +1,130 @@
+imageatlas.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img_obj_text_junglegamemenu
+  rotate: false
+  xy: 1, 793
+  size: 420, 280
+  orig: 420, 280
+  offset: 0, 0
+  index: -1
+img_obj_sound_off
+  rotate: false
+  xy: 202, 1276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img_obj_social_facebook
+  rotate: false
+  xy: 303, 1336
+  size: 80, 130
+  orig: 80, 130
+  offset: 0, 0
+  index: -1
+img_obj_social_twitter
+  rotate: false
+  xy: 323, 1074
+  size: 80, 130
+  orig: 80, 130
+  offset: 0, 0
+  index: -1
+img_obj_circle
+  rotate: false
+  xy: 222, 1175
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img_obj_flower_2_
+  rotate: false
+  xy: 1, 1215
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+img_obj_swipe_up_instructions
+  rotate: false
+  xy: 422, 995
+  size: 220, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+img_bg_1_
+  rotate: false
+  xy: 1, 1
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+img_obj_btn_settings
+  rotate: false
+  xy: 723, 793
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+img_obj_flower_1_
+  rotate: false
+  xy: 404, 1136
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+img_obj_btn_play
+  rotate: false
+  xy: 422, 793
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+img_obj_mountains
+  rotate: false
+  xy: 1, 542
+  size: 960, 250
+  orig: 960, 250
+  offset: 0, 0
+  index: -1
+img_obj_sound_on
+  rotate: false
+  xy: 605, 1136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img_obj_swipe_down_menu
+  rotate: false
+  xy: 1, 1074
+  size: 220, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+img_obj_rectangle
+  rotate: false
+  xy: 222, 1074
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+img_obj_btn_scores
+  rotate: false
+  xy: 422, 894
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+img_obj_social_google
+  rotate: false
+  xy: 323, 1205
+  size: 80, 130
+  orig: 80, 130
+  offset: 0, 0
+  index: -1
+img_obj_loading
+  rotate: false
+  xy: 723, 894
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
