@@ -103,3 +103,28 @@ You can build your game using the Android backend and install it to a device lik
 ```
 % mvn install -Pandroid
 ```
+
+## Run MTX samples
+
+There are 3 samples which come together with MTX framework:
+- Core samples (tutorials 1-3 from http://moribitotechx.blogspot.co.uk/p/tutorial-series-libgdx-mtx.html)
+- Game World (tutorial 5)
+- Jungle Menu (tutorial 7)
+
+### Desktop
+In order to run MTX samples you need to change "mainClass" property inside desktop/pom.xml 
+- com.moribitotech.samples.core.Main (Core samples)
+- com.moribitotech.samples.gameworld.Main (Game World)
+- com.moribitotech.samples.jungle.Main (Jungle Menu)
+
+### Android
+In order to run MTX samples you need to change android:name property for main activity inside AndroidManifest.xml:
+- com.moribitotech.samples.core.MainActivity (Core samples)
+- com.moribitotech.samples.gameworld.MainActivity (Game World)
+- com.moribitotech.samples.jungle.MainActivity (Jungle Menu)
+Also please check the the package name is equal to "com.moribitotech.mtx.samples".
+
+
+### Import project into IDE.
+
+All modern IDEs has build-in Maven plugin, so in order to create project you need to select "Import project" option in your IDE and select root pom.xml file. IDE should automatically set up all required information.

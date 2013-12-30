@@ -284,13 +284,13 @@ public class JungleMainMenuScreenButtons {
 
 	public void sendInMainMenuButtons(
 			final JungleMainMenuScreen jungleMainMenuScreen) {
-		EffectCreator.create_SC_BTN(jungleMainMenuScreen.btnPlay, 1.3f, 1.3f,
+		EffectCreator.create_SC_BTO(jungleMainMenuScreen.btnPlay, 1.3f, 1.3f,
 				0.4f, null, false);
 
-		EffectCreator.create_SC_BTN(jungleMainMenuScreen.btnScores, 1.3f, 1.3f,
+		EffectCreator.create_SC_BTO(jungleMainMenuScreen.btnScores, 1.3f, 1.3f,
 				0.6f, null, false);
 
-		EffectCreator.create_SC_BTN(jungleMainMenuScreen.btnSettings, 1.3f,
+		EffectCreator.create_SC_BTO(jungleMainMenuScreen.btnSettings, 1.3f,
 				1.3f, 0.8f, null, false);
 		//
 		jungleMainMenuScreen.btnPlay.setTouchable(Touchable.enabled);
