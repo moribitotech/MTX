@@ -36,3 +36,70 @@ How can it be used:
 - Live wallpapers (I made a small fortune with them), Top-notch, very detailed and high quality live wallpapers can be done in days
 - Simple touch, touch drag, swipe intentions and collision detections for your needs
 - Games, you can develop a full game without any problems, if you like abilities of LibGDX Scene2D
+
+
+## Installation
+
+Project structure was generated using official libgdx maven archetype - https://github.com/libgdx/libgdx-maven-archetype
+In order to build it, please follow the following steps:
+- Download latest version of Apache Maven tool from http://maven.apache.org/download.cgi and unpack it to <MAVEN_DIR> folder on your PC.
+- Create M2_HOME environment variable and set it to <MAVEN_DIR>
+- Update PATH environment variable and append <M2_HOME>/bin folder to it. For Windows users it is sometimes required to restart cmd after setting your environment variables.
+- Verify that you install Maven correctly by typing "mvn -version" in your shell. As a result you should see installed maven version.
+
+### Build and run the Desktop backend
+
+You can build and run your game using the Desktop backend like this:
+
+```
+% mvn integration-test -Pdesktop
+```
+
+This is pretty simple. It builds the Java code, and then unpacks some native libraries into the
+right place and then runs the code.
+
+You can also build a single jar file version of your game that you can send to friends or do
+whatever you like with:
+
+```
+% mvn package -Pdesktop
+% java -jar desktop/target/mtx-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
+### Build and run the Android backend
+
+You can build your game using the Android backend and install it to a device like this:
+
+```
+% mvn install -Pandroid
+```
+This maven project structure was generated using official libgdx maven archetype - https://github.com/libgdx/libgdx-maven-archetype
+
+## Running your project
+
+### Build and run the Desktop backend
+
+You can build and run your game using the Desktop backend like this:
+
+```
+% mvn integration-test -Pdesktop
+```
+
+This is pretty simple. It builds the Java code, and then unpacks some native libraries into the
+right place and then runs the code.
+
+You can also build a single jar file version of your game that you can send to friends or do
+whatever you like with:
+
+```
+% mvn package -Pdesktop
+% java -jar desktop/target/mtx-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
+### Build and run the Android backend
+
+You can build your game using the Android backend and install it to a device like this:
+
+```
+% mvn install -Pandroid
+```
